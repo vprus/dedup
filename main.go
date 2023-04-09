@@ -51,7 +51,7 @@ func dedupCommand(root string, manifestPath string, really bool) {
 	if really {
 		fmt.Printf("The duplicated files were removed\n")
 	} else {
-		fmt.Printf("Run with -really option to really delete files")
+		fmt.Printf("Run with -really option to really delete files\n")
 	}
 }
 
